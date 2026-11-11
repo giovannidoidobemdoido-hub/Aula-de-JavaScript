@@ -1,0 +1,29 @@
+*{  /* TIRANDO A CONFIGURAÇÃO PADRÃO DOS NAVEGADORES... */
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+h1{
+    display: flex;
+    justify-content: center; /* Alinha Horizontal */
+    align-items: center; /* Alinha Vertical */
+    gap: 100px;/* Espaçamento entre elementos */
+    font-family: Arial, Helvetica, sans-serif; /* Muda a fonte do texto */
+    /* height: 100vh;  *//* Altura */
+    /* width: ; Largura */
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+button{
+    color: rgb(22, 74, 214);
+    padding: 40px;
+    border-radius: 50px;
+
+}
+
